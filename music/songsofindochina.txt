@@ -1,0 +1,95 @@
+# Five songs for Mon-Khmer and Tai-Kadai rulers.
+
+song = {
+	name = "angkor.ogg"
+	song_name = "Angkor"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	
+				OR = {
+					culture_group = mon_khmer_group
+					culture_group = tai_kadai_group
+				}
+			}
+		}		
+	}
+	volume = 0.40
+}
+
+song = {
+	name = "thekhmerempire.ogg"
+	song_name = "The Khmer Empire"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	
+				OR = {
+					culture_group = mon_khmer_group
+					culture_group = tai_kadai_group
+				}
+			}
+		}		
+	}
+	volume = 0.40
+}
+
+song = {
+	name = "ngoquyenmarchtobachdang.ogg"
+	song_name = "Ngo Quyen March to Bach Dang"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	
+				OR = {
+					culture_group = mon_khmer_group
+					culture_group = tai_kadai_group
+				}
+			}
+		}		
+	}
+	volume = 0.40
+}
+
+song = {
+	name = "namtien.ogg"
+	song_name = "Nam Tien"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	
+				OR = {
+					culture_group = mon_khmer_group
+					culture_group = tai_kadai_group
+				}
+			}
+		}		
+	}
+	volume = 0.40
+}
+
+song = {
+	name = "lyandtran.ogg"
+	song_name = "Ly and Tran"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	
+				OR = {
+					culture_group = mon_khmer_group
+					culture_group = tai_kadai_group
+				}
+			}
+		}		
+	}
+}

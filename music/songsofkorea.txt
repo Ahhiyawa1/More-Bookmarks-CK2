@@ -1,0 +1,29 @@
+# Two songs for Korean rulers.
+
+song = {
+	name = "thelandofthemorningcalm.ogg"
+	song_name = "The Land of the Morning Calm"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = koreanic }
+		}		
+	}
+	volume = 0.40
+}
+
+song = {
+	name = "yangbansinhwaseong.ogg"
+	song_name = "Yangbans in Hwaseong"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = koreanic }
+		}		
+	}
+	volume = 0.40
+}
